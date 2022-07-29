@@ -1,0 +1,174 @@
+
+body {
+    background-image: url('bk.jpg');
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+      }
+  .btn {
+    background-color: DodgerBlue;
+     border: none;
+     color: white;
+     padding: 12px 16px;
+     font-size: 16px;
+    cursor: pointer;
+      }
+  .btn:hover {
+     background-color: violet;
+      }
+      h1:hover {
+        background-color: violet;
+         }
+         h2:hover {
+          background-color: violet;
+           }
+           h3:hover {
+            background-color: violet;
+             }
+             h6.hover {
+              background-color: violet;
+               }
+               p.hover {
+                background-color: violet;
+                 }
+              
+  form{
+     position: relative;
+    top:50px;
+    left:100px;
+    }
+  h1{
+    color: white;
+    border-style: solid;
+    border-color: violet;
+    background-color:gray;
+    }
+  h4{
+    color: white;
+    border-style: solid;
+    border-color: violet;
+    background-color: gray;
+    position: relative;
+    top:-70px;
+     left:100px;
+        }
+  h2{
+    color: white;
+    border-style: solid;
+    border-color: violet;
+    background-color: gray;
+    }
+  h3{
+      color: white;
+    border-style: solid;
+    border-color: violet;
+    background-color: gray;
+    }   
+  img {
+    border-radius: 20%;
+        }
+  
+  .relative {
+    position: left;
+    left: 30px;
+    border: 3px solid violet;
+           }
+           .header{
+            position: relative;
+            bottom: 90px;
+            border-style: solid;
+            color: black;
+            background-color: gray;
+            margin-left: 500px;
+            margin-right: 500px;
+            opacity: 0.7;
+            border-radius: 5px;
+            font-size: large;
+            
+        }
+        
+        .header:hover{
+            background-color: gray; transform: scale(1);
+            margin-left: 510px;
+            border-radius: 10px;
+            margin-right: 510px;
+            padding: 5px 5px;
+        }
+        .col1{
+          border-style: none;
+          color: black;
+          background-color:  gray;
+          position: relative;
+          width: 23.33%;
+          float: left;
+          margin-left: 300px;
+          font-size: 12;
+          border-radius: 4px;
+          opacity: 0.8;
+          text-align: center;
+      }
+      .col1:hover{
+          background-color: violet; transform: scale(1);
+          border-radius: 10px;
+      }
+      
+      .col2{
+          border-style: none;
+          color: black;
+          background-color: gray;
+          position: relative;
+          width: 23.33%;
+          float: right;
+          margin-right: 300px;
+          border-radius: 4px;
+          opacity: 0.8;
+      }
+      .col2:hover{
+          background-color: violet; transform: scale(1);
+          border-radius: 10px;
+      }
+  
+      P {
+        font-size: large;	
+        font-style: normal;
+        font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+        text-shadow: 3px 3px 5px #ffe6ff;
+        margin-left:3%;
+        margin-right:3%;
+        text-align: center;
+      }
+      .love {
+        background-color: skyblue;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+  
+      .bb{
+        background-color: blue;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      .bb {
+        background-color: blue ;
+      }
+      .mama {
+        border-radius: 5%;
+            }
+            .kwento {
+              background-image: url('bbq.JPG');
+              border-radius: 10%;
+              background-size: cover;
+                  }
+    

@@ -1,0 +1,80 @@
+body {
+    background-image: url('bk.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+  border-style: solid;
+  border-color: violet ;
+  background-color: bisque;
+  padding: 15px;
+  border-image: url('vc.JPG') 30 stretch;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  h2 {
+   background-image: url(img_flwr.gif), url(sd.JPEG);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  h3 {
+    background-color:#808080;
+    color: white;
+  }
+  
+  P {
+    background-color:gray;
+    color: white;
+  }
+  
+  img {
+    border-radius: 0%;
+  }
+  
+  .bb{
+    background-color: violet;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .col1{
+    border-style: none;
+    color: black;
+    background-color:  skyblue;
+    position: relative;
+    width: 23.33%;
+    float: left;
+    margin-left: 300px;
+    font-size: 12;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+.col1:hover{
+    background-color: orange; transform: scale(1);
+    border-radius: 10px;
+}
+
+.col2{
+    border-style: none;
+    color: black;
+    background-color: skyblue;
+    position: relative;
+    width: 23.33%;
+    float: right;
+    margin-right: 300px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.col2:hover{
+    background-color: orange; transform: scale(1);
+    border-radius: 10px;
+}
